@@ -2,6 +2,13 @@ package java.git;
 
 public class MyFirst {
 	String firstGit;
+	String update;
+	public String getUpdate() {
+		return update;
+	}
+	public void setUpdate(String update) {
+		this.update = update;
+	}
 	public MyFirst(){}
 	public String getFirstGit() {
 		return firstGit;
