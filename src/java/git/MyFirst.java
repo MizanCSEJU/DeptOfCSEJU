@@ -3,12 +3,12 @@ package java.git;
 public class MyFirst {
 	String firstGit;
 	String update;
-	boolean works; 
-	public boolean isWorks() {
-		return works;
+	boolean working; 
+	public boolean isWorking() {
+		return working;
 	}
-	public void setWorks(boolean works) {
-		this.works = works;
+	public void setWorking(boolean works) {
+		this.working = works;
 	}
 	public String getUpdate() {
 		return update;
