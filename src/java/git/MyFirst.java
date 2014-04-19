@@ -8,9 +8,20 @@ public class MyFirst {
 	String firstGit;
 	String update;
 	boolean working; 
+	boolean hasChild;
+	
 	public boolean isWorking() {
 		return working;
 	}
+	
+	public boolean isHasChild() {
+		return hasChild;
+	}
+
+	public void setHasChild(boolean hasChild) {
+		this.hasChild = hasChild;
+	}
+
 	public void setWorking(boolean works) {
 		this.working = works;
 	}
